@@ -1,0 +1,276 @@
+h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 85px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 50px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+p {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 24px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0c0d0d;
+}
+
+.pg-padding {
+    padding: 30px 50px;
+}
+
+.header-padding {
+    padding: 0px 50px;
+}
+
+header {
+    background: #0c0d0d;
+    position: fixed;
+    z-index: 9;
+    width: 100%;
+    color: #009092;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+main {
+    padding-top: 100px;
+    color: white;
+}
+
+.opening-feature {
+    background-image: url('../images/hand.jpg');
+    background-position: right;
+    background-size: cover;
+    position: relative;
+    min-height: 90vh;
+    text-align: center;
+}
+
+.opening-feature::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(1px);
+    z-index: 1;
+}
+
+.opening-feature h1,
+.opening-feature .button,
+.opening-feature h2 {
+    position: relative;
+    z-index: 2;
+}
+
+
+.opening-feature h1 {
+    color: #009092;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.9);
+}
+
+.button {
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    border: 3px solid white;
+    background: transparent;
+    padding: 40px 80px;
+    font-size: 40px;
+    text-decoration: none;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+.button:hover {
+    color: #009092;
+    border: 3px solid #009092;
+    transition: .5s;
+}
+
+.feature-demeter {
+    background-image: url('../images/Demeter-Dracula-Back.jpg');
+    background-position: right;
+    background-size: cover;
+    position: relative;
+    min-height: 70vh;
+}
+
+.feature-demeter>div:nth-child(1) {
+    width: 40%;
+}
+
+.feature-demeter::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.feature-demeter h1,
+.feature-demeter h3,
+.feature-demeter p,
+.feature-demeter iframe {
+    position: relative;
+    z-index: 2;
+}
+
+.text-box {
+    text-align: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+}
+
+.poster-sizing {
+    width: 400px;
+    height: auto;
+}
+
+.feature-beau {
+    background-image: url('../images/beau-face.jpg');
+    background-position: right;
+    background-size: cover;
+    position: relative;
+    min-height: 70vh;
+}
+
+.feature-beau>div:nth-child(1) {
+    width: 40%;
+}
+
+.feature-beau::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.feature-beau h1,
+.feature-beau h3,
+.feature-beau p,
+.feature-beau iframe {
+    position: relative;
+    z-index: 2;
+}
+
+.feature-ttm {
+    background-image: url('../images/ttm-face.jpg');
+    background-position: right;
+    background-size: cover;
+    position: relative;
+    min-height: 70vh;
+}
+
+.feature-ttm>div:nth-child(1) {
+    width: 40%;
+}
+
+.feature-ttm::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.feature-ttm h1,
+.feature-ttm h3,
+.feature-ttm p,
+.feature-ttm iframe {
+    position: relative;
+    z-index: 2;
+}
+
+.feature-skinamarink {
+    background-image: url('../images/skinamarink-tv.jpg');
+    background-position: right;
+    background-size: cover;
+    position: relative;
+    min-height: 70vh;
+}
+
+.feature-skinamarink>div:nth-child(1) {
+    width: 40%;
+}
+
+.feature-skinamarink::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.feature-skinamarink h1, .feature-skinamarink h3, .feature-skinamarink p, .feature-skinamarink iframe {
+    position: relative;
+    z-index: 2;
+}
+
+.feature-fnaf {
+    background-image: url('../images/fnaf-face.jpg');
+    background-position: right;
+    background-size: cover;
+    position: relative;
+    min-height: 70vh;
+}
+
+.feature-fnaf>div:nth-child(1) {
+    width: 40%;
+}
+
+.feature-fnaf::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.feature-fnaf h1, .feature-fnaf h3, .feature-fnaf p, .feature-fnaf iframe {
+    position: relative;
+    z-index: 2;
+}
